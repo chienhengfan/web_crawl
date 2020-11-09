@@ -1,0 +1,23 @@
+create database topic_104;
+
+create table topic_104.Job_104 (`Job_ID` varchar(10) not null,
+				   `Job_Name` varchar(100) ,
+                   `Job_Industry` varchar(100) ,
+                   `Job_Category` varchar(50) ,
+                   `Company` varchar(100) ,
+                   `Work_area` varchar(30) ,
+                   `Work_exp` varchar(20) ,
+                   `Edu` varchar(30) ,
+                   `Department` varchar(100) ,
+                   `Lan` varchar(100) ,
+                   `Job_skill` varchar(1000) ,
+                   `License` varchar(1000) ,
+                   `Expat` varchar(20) ,
+                   `Manage` varchar(20) ,
+                   `Working_time` varchar(50) ,
+                   `Vacation` varchar(50) ,
+                   `min_sal` varchar(8) ,
+                   `max_sal` varchar(8) ,
+                   `Benefit_Comp` varchar(5000) ,
+                   `Job_Discription` varchar(5000) , 
+                   primary key(Job_ID));
